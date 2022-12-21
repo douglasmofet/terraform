@@ -15,12 +15,13 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "my-test-bucket-01" {
-  bucket = "mofet-bucket-terraform"
+  bucket = "mofet-bucket-terraform-01"
 
   tags = {
     Name        = "My bucket"
     Environment = "Dev"
-    criacao     = "terraform"
+    criacao = "terraform123",
+    author = "mofet"
   }
 }
 
