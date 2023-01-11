@@ -3,15 +3,15 @@ terraform {
 
   required_providers {
     aws = {
-      source = "hashicorp/aws"
+      source  = "hashicorp/aws"
       version = "4.46.0"
     }
   }
 }
 
 provider "aws" {
- region = "sa-east-1" 
- profile = "tf01"
+  region  = "sa-east-1"
+  profile = "tf01"
 }
 
 resource "aws_s3_bucket" "my-test-bucket-01" {
@@ -20,8 +20,8 @@ resource "aws_s3_bucket" "my-test-bucket-01" {
   tags = {
     Name        = "My bucket"
     Environment = "Dev"
-    criacao = "terraform123",
-    author = "mofet"
+    criacao     = "terraform123",
+    author      = "mofet"
   }
 }
 
