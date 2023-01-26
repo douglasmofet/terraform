@@ -32,6 +32,8 @@ resource "aws_s3_bucket" "remote-state" {
     Owner       = "Mofet"
     CreateAt    = "24/01/2023"
   }
+
+  force_destroy = true
 }
 
 resource "aws_s3_bucket_versioning" "versioning_example" {

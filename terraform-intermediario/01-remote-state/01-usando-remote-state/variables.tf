@@ -11,9 +11,9 @@ variable "aws_profile" {
 }
 
 variable "ami" {
-  type          = string
-  description   = ""
-  default       = "ami-0b0d54b52c62864d6"
+  type        = string
+  description = ""
+  default     = "ami-0b0d54b52c62864d6"
 }
 
 variable "instance_type" {
