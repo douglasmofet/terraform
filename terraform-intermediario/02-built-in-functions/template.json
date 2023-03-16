@@ -1,0 +1,10 @@
+{
+  "_id": "161616516as1d61a65461d651dg",
+  "index": 0,
+  "guid": "c0d6c16e-96af-48a7-8464-c9f4df499980",
+  "isActive": true,
+  "age": "${age}",
+  "eyes": "${eyes}",
+  "name": "${name}",
+  "nick": "${nick}"
+}
